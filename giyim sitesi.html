@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>açılır menü</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        #menü ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: smaller;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #menü ul li {
+            list-style-type: none;
+            background-color: black;
+            width: 100px;
+            display: inline-block;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #menü ul {
+            background-color: black;
+            margin-top: 23px;
+
+        }
+
+        #menü ul li:hover {
+            background-color: rgb(92, 90, 90);
+            transition: 0.7s;
+        }
+
+        .flawbaslık {
+            background-color: rgb(0, 0, 0);
+            display: block;
+            width: 100%;
+            margin-top: -10px;
+        }
+
+        .iconlar1 {
+            list-style-type: none;
+            margin-top: -50px;
+
+        }
+
+        .iconlar1 li {
+            display: inline-block;
+            padding: 5px;
+        }
+
+        .iconlar1 li a {
+            color: #fff;
+            padding-left: 5px;
+
+        }
+
+        #indirimresmi {
+            width: 100%;
+            margin-top: -15px;
+        }
+
+        #dp1 {
+            position: absolute;
+            z-index: 1;
+            display: none;
+            margin-left: -10px;
+        }
+
+        #new-dropdeğince:hover #dp1 {
+            display: block;
+
+        }
+
+        #dp1 ul li {
+            display: block;
+            margin-top: -13px;
+            padding: 20px;
+        }
+
+        .ayar1 {
+            margin-left: -40px;
+        }
+
+        #menü #dp1 ul li {
+            width: 85px;
+        }
+    </style>
+    <link rel="stylesheet" href="çalışma2.css">
+</head>
+
+
+<body>
+    <div class="flawbaslık">
+        <center>
+            <img src="/projeler/resimler/Purple and Yellow Modern Space E-Sport Logo.png" alt="" width="200"
+                height="200">
+        </center>
+    </div>
+
+    <ul class="iconlar1">
+        <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+        <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+
+        <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+    </ul>
+
+
+    <div id="menü">
+        <center>
+            <ul>
+                <li><a href="">İNDİRİM</a></li>
+                <li id="new-dropdeğince">
+                    <a href="">NEW DROP</a>
+                    <div id="dp1">
+                        <ul>
+                            <li class="ayar1"><a href="">Erkek</a></li>
+                            <li class="ayar1"><a href="">Kadın</a></li>
+                        </ul>
+
+                    </div>
+                </li>
+                <li id="erkek-değince">
+                    <a href="">ERKEK</a>
+                    <div id="dp2">
+                        <ul>
+                            <li id="hoddiedeğince" class="ayar1">
+                                <a href="">Hodie</a>
+                                <div id="dp2içi">
+                                    <ul>
+                                        <li><a href="">Basic Hoodie</a></li>
+                                        <li><a href="">Baskılı Hoodie</a>
+                                        </li>
+                                        <li><a href="">Nakışlı Hoodie</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li id="Sweatshirtdeğince" class="ayar1">
+                                <a href="">Sweatshirt</a>
+                                <div id="Sweatshirtiç">
+                                    <ul>
+                                        <li><a href="">Basic
+                                                Sweatshirt</a></li>
+                                        <li><a href="">Nakışlı
+                                                Sweatshirt</a></li>
+                                        <li><a href="">Baskılı
+                                                Sweatshirt</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li id="pantolonadeğince" class="ayar1">
+                                <a href="">Pantolon</a>
+                                <div id="pantoloniçi">
+                                    <ul>
+                                        <li><a href="">Baggy</a></li>
+                                        <li><a href="">Regular
+                                                Fit</a></li>
+                                        <li><a href="">Kargo ve Paraşüt</a>
+                                        </li>
+                                        <li><a href="">Kumaş Pantolon</a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </li>
+                            <li id="Jaendeğince" class="ayar1">
+                                <a href="">Jaen</a>
+                                <div id="jeaniçi">
+                                    <ul>
+                                        <li><a href="">Baggy</a></li>
+                                        <li><a href="">Regular</a></li>
+                                        <li><a href="">Mom</a></li>
+                                        <li><a href="">Skiny</a></li>
+                                        <li><a href="">Kargo</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li id="thirtdeğince" class="ayar1">
+                                <a href="">Tshirt</a>
+                                <div id="Tshirtiçi">
+                                    <ul>
+                                        <li><a href="">Uzun Kollu
+                                                Tshirt</a></li>
+                                        <li><a href="">Nakışlı Tshirt</a>
+                                        </li>
+                                        <li><a href="">Baskılı Tshirt</a>
+                                        </li>
+                                        <li><a href="">Basic Tshirt</a></li>
+                                    </ul>
+
+                                </div>
+                            </li>
+                            <li id="Eşofmandeğince" class="ayar1">
+                                <a href="">Eşofman</a>
+                                <div id="eşofmaniçi">
+                                    <ul>
+                                        <li class="ayar1"><a href="">Eşofman Takımı</a>
+                                        </li>
+                                        <li class="ayar1"><a href="">Eşofman
+                                                Altı</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li id="içgiyimdeğince" class="ayar1">
+                                <a href="">İç Giyim</a>
+                                <div id="boxeriçi">
+                                    <ul>
+                                        <li class="ayar1"><a href="">Boxer</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="ayar1"><a href="">Pijama</a></li>
+                            <li id="kazakdeğince" class="ayar1">
+                                <a href="">Triko</a>
+                                <div id="kazakiçi">
+                                    <ul>
+                                        <li class="ayar1"><a href="">Kazak</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li id="dışgiyimdeğince" class="ayar1">
+                                <a href="">Dış Giyim</a>
+                                <div id="dışgiyimiçi">
+                                    <ul>
+                                        <li class="ayar1"><a href="">Yelek</a>
+                                        </li>
+                                        <li class="ayar1"><a href="">Trenç</a></li>
+                                        <li class="ayar1"><a href="">Mont</a></li>
+                                        <li class="ayar1"><a href="">Çeket</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="ayar1"><a href="">Gömlek</a></li>
+                            <li id="Aksesuardeğince" class="ayar1">
+                                <a href="">Aksesuar</a>
+                                <div id="aksesuariçi">
+                                    <ul>
+                                        <li class="ayar1"><a href="">Gözlük</a>
+                                        </li>
+                                        <li class="ayar1"><a href="">Çanta</a></li>
+                                        <li class="ayar1"><a href="">Çorap</a></li>
+                                        <li class="ayar1"><a href="">Şapka</a></li>
+                                        <li class="ayar1"><a href="">Kemer</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li id="takımlardeğince" class="ayar1">
+                                <a href="">Takımlar</a>
+                                <div id="takımlariçi">
+                                    <ul>
+                                        <li class="ayar1"><a href="">Kışlık
+                                                Takım</a></li>
+                                        <li class="ayar1"><a href="">Yazlık
+                                                Takım</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="ayar1"><a href="">Şort</a></li>
+                            <li class="ayar1"><a href="">Atlet</a>
+                            </li>
+                            <li class="ayar1"><a href="">Forma</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li id="kadındeğince">
+                    <a href="">KADIN</a>
+                    <div id="kadıniçi">
+                        <ul>
+                            <li><a href="">Hoodie</a></li>
+                            <li><a href="">Sweatshirt</a></li>
+                            <li><a href="">Pantolon</a></li>
+                            <li><a href="">T-Shirt</a></li>
+                            <li><a href="">Crop</a></li>
+                            <li><a href="">Şort</a></li>
+                            <li><a href="">Etek</a></li>
+                            <li><a href="">Eşofman</a></li>
+                            <li id="dışdeğince">
+                                <a href="">Dış Giyim</a>
+                                <div id="dışiçi">
+                                    <ul>
+                                        <li><a href="">Trenç</a></li>
+                                        <li><a href="">Ceket</a></li>
+                                        <li><a href="">Mont</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="">Gömlek</a></li>
+                            <li><a href="">Elbise</a></li>
+                            <li><a href="">Bluz</a></li>
+                            <li><a href="">Pijama</a></li>
+                            <li><a href="">Takımlar</a></li>
+                            <li><a href="">Triko</a></li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li id="flawdeğince">
+                    <a href="">SPACE ATELİER</a>
+                    <div id="flawiçi">
+                        <ul>
+                            <li id="pantoldeğince">
+                                <a href="">Space Pantolon</a>
+                                <div id="flawpantol">
+                                    <ul>
+                                        <li><a href="">Space Baggy Jean</a></li>
+                                        <li><a href="">Space Mom Jean</a></li>
+                                        <li><a href="">Space Regular Fit</a>
+                                        </li>
+                                        <li><a href="">Space Kumaş
+                                                Pantolon</a></li>
+                                        <li><a href="">Space Kargo
+                                                Pantolon</a></li>
+                                        <li><a href="">Space Paraşüt
+                                                Pantolon</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li id="flawesşfomandeğince">
+                                <a href="">Space Eşofman</a>
+                                <div id="flaweşofmaniçi">
+                                    <ul>
+                                        <li><a href="">Space Eşofman Altı</a></li>
+                                        <li><a href="">Space Eşofman Takımı</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="">Space Pijama</a></li>
+                            <li><a href="">Space Mont</a></li>
+                            <li><a href="">Space Sweatshirt</a></li>
+                            <li><a href="">Space T-Shirt</a></li>
+                            <li><a href="">Space Şort</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">CUSTOM DESIGN</a></li>
+                <li><a href="">PREMIUM</a></li>
+            </ul>
+        </center>
+    </div>
+    <div>
+        <center>
+            <a href=""> <img src="/projeler/resimler/İNDİİRM.png" id="indirimresmi" alt=""></a>
+        </center>
+    </div>
+
+</body>
+
+</html>
