@@ -1,0 +1,215 @@
+#dp2 {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-left: -10px;
+}
+#erkek-değince:hover #dp2 {
+    display: block;
+
+}
+#dp2 ul li {
+    display: block;
+    margin-top: -13px;
+    padding: 20px;
+}
+#menü #dp2 ul li {
+    width: 85px;
+}
+#dp2içi{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-top: -48px;
+    margin-left: 110px;
+    width: 100px;
+    
+}
+#hoddiedeğince:hover #dp2içi{
+    display: block;
+}
+#dp2içi ul li{
+    display: block;
+    margin-left: -50px;
+}
+#Sweatshirtiç{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-top: -50px;
+    margin-left: 105px;
+    width: 100px;
+}
+#Sweatshirtdeğince:hover #Sweatshirtiç{
+    display: block;
+}
+#Sweatshirtiç ul li{
+    margin-left: -40px;   
+}
+#pantoloniçi{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-left: 100px;
+    margin-top: -48px;
+
+}
+#pantolonadeğince:hover #pantoloniçi{
+    display: block; 
+}
+#pantoloniçi ul li{
+    margin-left: -40px;
+}
+#jeaniçi{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-left: 100px;
+    margin-top: -48px;
+}
+#Jaendeğince:hover #jeaniçi{
+    display: block;
+}
+#jeaniçi ul li{
+    margin-left: -40px;
+}
+#Tshirtiçi{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-left: 100px;
+    margin-top: -48px;
+}
+#thirtdeğince:hover #Tshirtiçi{
+    display: block;
+}
+#Tshirtiçi ul li{
+    margin-left: -40px;
+}
+#eşofmaniçi{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-left: 100px;
+    margin-top: -48px;
+}
+#Eşofmandeğince:hover #eşofmaniçi{
+    display: block;
+}
+#boxeriçi{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-left: 100px;
+    margin-top: -48px;
+}
+#içgiyimdeğince:hover #boxeriçi{
+    display: block;
+}
+#kazakiçi{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-left: 100px;
+    margin-top: -48px;
+}
+#kazakdeğince:hover #kazakiçi{
+    display: block;
+}
+#dışgiyimiçi{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-left: 100px;
+    margin-top: -48px;
+}
+#dışgiyimdeğince:hover #dışgiyimiçi{
+    display: block;
+}
+#aksesuariçi{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-left: 100px;
+    margin-top: -48px;
+}
+#Aksesuardeğince:hover #aksesuariçi{
+    display: block;
+}
+#takımlariçi{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-left: 100px;
+    margin-top: -48px;
+}
+#takımlardeğince:hover #takımlariçi{
+    display: block;
+}
+#kadıniçi{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-left: -48px;
+    margin-top: -13px;
+   
+}
+#kadındeğince:hover #kadıniçi{
+    display: block;
+}
+#kadıniçi ul li {
+    display: block;
+    padding: 15px;
+    margin-left: -40px;
+    width: 120px;
+}
+#kadıniçi ul{
+    margin-left: 38px;
+}
+#dışiçi{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-left: 68px;
+    margin-top: -56px;
+}
+#dışdeğince:hover #dışiçi{
+    display: block;
+}
+#flawiçi{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-left: -10px;
+    margin-top: -13px; 
+}
+#flawdeğince:hover #flawiçi{
+    display: block;
+}
+#flawiçi  ul li{
+    display: block;
+    padding: 20px;
+    margin-left: -40px;
+    width: 120px;
+}
+#flawpantol{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-left: 140px;
+    margin-top: -61px;
+}
+#pantoldeğince:hover #flawpantol{
+    display: block;
+}
+#flaweşofmaniçi{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-left: 140px;
+    margin-top: -61px;
+}
+#flawesşfomandeğince:hover #flaweşofmaniçi{
+    display: block;
+}
+
